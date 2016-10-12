@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(../img/bg.gif);
+}
+.each-link a{
+	background: #333;
+	color: #fff;
+	box-shadow: 0 0 5px #999;
+	opacity: 0.5;
+	margin: 0 5px;
+}
+.each-link{
+	margin-top: 200px;
+}
+.title{
+	position: absolute;
+	top: 30px;
+	left:47%;
+	
+}
+.title button{
+	background: #333;
+	color: #fff;
+
+}
+
+.each-link a:hover{
+	opacity: 1;
+}

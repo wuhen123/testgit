@@ -1,0 +1,221 @@
+.wrap {
+      width: 1200px;
+      min-height:400px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+}
+.carousel {
+      position: absolute;
+      transition: all 0.5s ease-in 0s;
+}
+.carousel div {
+      float: left;
+      text-align: center;
+}
+.button {
+      text-align: center;
+}
+.pre{
+  border: none;
+  position: absolute;
+  left: 140px;
+  top: 160px;
+  background: none;
+}
+.next{
+  border: none;
+  position: absolute;
+  right: 140px;
+  top: 160px;
+  background: none;
+}
+.text1{
+  font-size: 33px;
+  color: #fff;
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  font-weight: bold;
+}
+.text2{
+  font-size: 33px;
+  color: #fff;
+  position: absolute;
+  left: 300px;
+  top: 155px;
+  font-weight: bold;
+}
+.text2 span{
+  font-size: 60px;
+}
+.main{
+  width: 100%;
+  background:#fafafa;
+}
+.introduce{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 163px;
+}
+.introduce span{
+  float: left;
+  width: 224px;
+  text-align: center;
+  margin-right: 106px;
+}
+.number p{
+  font-size: 18px;
+  color: #999;
+  line-height: 35px;
+}
+.number i{
+  color: #26a26f;
+  line-height: 35px;
+}
+.introduce h{
+  font-size: 18px;
+  color: #333;
+  line-height: 85px;
+}
+.introduce span p{
+  font-size: 16px;
+  color: #999;
+}
+.study{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.study p{
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 152px 0 82px;
+}
+.study ul li{
+  float: left;
+  display: inline-block;
+  width: 310px;
+  height: 78px;
+  margin-bottom: 96px;
+}
+.study span{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 35px;
+  background: #fff;
+  color: #29b078;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 0 2px #ececec;
+  vertical-align: middle;
+}
+.study i{
+  display: inline-block;
+  width: 156px;
+  vertical-align: middle;
+  margin: 0 19px 19px;
+  color: #999;
+}
+.study img{
+  vertical-align: middle;
+}
+.student{
+  width: 1200px;
+  margin: 0 auto;
+}
+.student-title{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 18px 0 76px;
+  text-align: center;
+}
+.student span{
+  display: inline-block;
+  background: #fff;
+  padding: 18px 29px 40px;
+  text-align: center;
+  margin-right: 26px;
+}
+.student h{
+  margin: 36px 0 30px;
+}
+.student span p{
+  width: 210px;
+  text-align: left;
+  color: #999;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.student i{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 0 1px 2px #ececec;
+
+}
+.small-icon{
+  width: 100%;
+  text-align: center;
+  padding: 24px 0 134px;
+}
+.small-icon i:hover{
+  background: #29b078;
+}
+.company{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+.company p{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 70px;
+}
+.company span{
+  display: inline-block;
+  width: 240px;
+  height: 180px;
+  background: #fff;
+  float: left;
+}
+.link{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.link p{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 22px 0 28px;
+}
+.link li{
+  float: left;
+  margin-right: 52px;
+  margin-left: 16px;
+}
+.link li a{
+  color: #999;
+  font-size: 14px;
+  line-height: 30px;
+}

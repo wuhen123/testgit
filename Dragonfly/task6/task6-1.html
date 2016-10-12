@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<title>task6-1</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="body">
+	<div class="header">
+		<img class="header-left" src="img/icon1.png" alt="">投票<img class="header-right" src="img/icon2.png" alt="">
+	</div>
+	<div class="discuss">
+		发言讨论结束，大家请投票
+		<audio src="music/1.ogg" controls="controls" preload id="music" hidden>
+        </audio>
+		<button id="a" onclick="a();" class="audio1"><img src="img/star-big.png" alt=""></button>
+		 <!--播放音频-->
+            
+		<script>
+                function a() {
+                    var audio = document.getElementById('music');
+                    if (audio.paused) {
+                        audio.play();//audio.play();// 播放
+                    }
+                    else {
+                        audio.pause();// 暂停
+                    }
+                }
+        </script>
+	</div>
+	<div class="content">
+		<img class="small-star" src="img/star.png" alt="">
+		<p>点击得票数最多人的头像</p>
+		<div class="each-list">
+			<span class="pic"><i class="big1"></i><i class="small"></i></span>
+			<span class="pic"><i class="big2"></i><i class="small"></i></span>
+			<span class="pic"><i class="big3"></i><i class="small"></i></span>
+		</div>
+		<div class="each-list">
+			<span class="pic"><i class="big4"></i><i class="small"></i></span>
+			<span class="pic"><i class="big5"></i><i class="small"></i></span>
+			<span class="pic"><i class="big6"></i><i class="small"></i></span>
+		</div>
+		<div class="each-list">
+			<span class="pic"><i class="big7"></i><i class="small"></i></span>
+			<span class="pic"><i class="big8"></i><i class="small"></i></span>
+			<span class="pic"><i class="big9"></i><i class="small"></i></span>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#"><button>投死</button></a>
+	</div>
+</div>	
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html{
+	font-size: 62.5%;
+}
+img{
+	max-width: 100%;
+	margin-bottom: 0.4rem;
+}
+.main{
+	width: 100%;
+	max-width: 360px;
+	background: #fff;
+	margin: 0 auto;
+}
+.box{
+	
+}
+.box img{
+	width: 32%;
+	float: left;
+}
+.box-middle{
+	margin:0 0.4rem;
+}

@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@media screen and (max-width: 1200px){
+	html{
+		font-size: 62.5%;
+	}
+}
+@media screen and (max-width: 992px){
+	html{
+		font-size: 52.5%;
+	}
+}
+@media screen and (max-width: 768px){
+	html{
+		font-size: 42.5%;
+	}
+}
+img{
+	max-width: 100%;
+}
+.header-top{
+	height: 4rem;
+	line-height: 4rem;
+}
+.header-top-left{
+	color: #29b078;
+	font-size: 1.4rem;
+}
+@media screen and (max-width: 768px){
+	.three{
+		text-align: left;
+	}
+}
+.top-bottom{
+	background: #29b078;
+	margin-bottom: 0;
+}
+.nav-each li{
+	height: 9.6rem;
+	padding-top: 2rem;
+	width: 10.1rem;
+}
+.nav-each{
+	margin-right: -5rem;
+	background: #29b078;
+	z-index: 9999;
+}
+.nav-each a{
+	color: #fff!important;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.nav-first{
+	border-bottom: 0.4rem solid #fefefe;
+}
+.nav-each li:hover{
+	border-bottom: 0.4rem solid #fefefe;
+}
+.footer{
+	background: #26a26f;
+	padding-top: 4rem;
+}
+.footer h{
+	font-size: 1.6rem;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 1rem;
+}
+.footer a{
+	font-size: 1.4rem;
+	color: #fff;
+	padding-right: 2rem;
+}
+@media screen and (max-width: 768px){
+	.wx{
+		text-align: left;
+	}
+}
+.footer-bottom{
+	padding: 0.1rem 0;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #fff;
+	border-top: 0.1rem solid #32c086;
+}
+.footer img{
+	padding-bottom: 2rem;
+}

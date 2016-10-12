@@ -1,0 +1,144 @@
+.carousel-img img{
+	width: 100%;
+	height: 60rem;
+	z-index: -1;
+}
+.main-body{
+	width: 100%;
+	background: #fafafa;
+	padding-bottom: 9.2rem;
+}
+.main-1{
+	padding-top: 16rem;
+}
+.main-1 h1{
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #333;
+}
+.main-1 p{
+	
+	color: #999;
+	font-size: 1.6rem;
+	margin-top: 2.5rem;
+	
+}
+.main-1 h2{
+	color: #26a26f;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-indent: 3rem;
+}
+.main-1 span{
+	display: inline-block;
+	font-size: 1.8rem;
+	color: #999;
+	text-indent: 3rem;
+}
+.special-1{
+	border-right: 1px dotted #dedede;
+}
+.study-title{
+	display: block;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	padding: 13rem 0 5.8rem;
+}
+.main-2{
+	margin-bottom: 10rem;
+}
+.main-2 span{
+	display: inline-block;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	border-radius: 2.5rem;
+	background: #fff;
+	color: #29b078;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+}
+.main-2 p{
+	display: inline-block;
+	width: 13.5rem;
+	color: #999;
+	font-size: 1.4rem;
+	font-weight: bold;
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.student{
+	display: block;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	padding: 2rem 0 7rem;
+}
+.main-3 div{
+	text-align: center;
+	background: #fff;
+}
+.main-3 img{
+	margin: 2rem 0 3.5rem;
+}
+.main-3 h{
+	font-size: 1.8rem;
+	color: #333;
+	font-weight: bold;
+}
+.main-3 p{
+	font-size: 1.6rem;
+	color: #999;
+	margin-top: 2.8rem;
+}
+.four{
+	text-align: center;
+	padding: 2.7rem 0 13.5rem;
+}
+.four span{
+	display: inline-block;
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 0.65rem;
+	background: #fff;
+	box-shadow: 0 0 0.1rem #999;
+	text-align: center;
+}
+.four span:hover{
+	background: #29b078;
+}
+.company{
+	display: block;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	padding-bottom: 7rem;
+}
+.main-4{
+	background: #fff;
+}
+.main-4 img{
+	width: 16%;
+}
+.link{
+	display: block;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	padding: 2.2rem 0 ;
+}
+.link-each a{
+	font-size: 1.4rem;
+	color: #999;
+	font-weight: bold;
+	
+}
+.link-each li{
+	padding-bottom: 2rem;
+}

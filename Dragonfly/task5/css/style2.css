@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html{
+	font-size: 62.5%;
+}
+
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+@media screen and (max-width: 550px) {
+	html{
+		font-size: 30%;
+	}
+}
+body{
+	max-width: 720px;
+	min-width: 320px;
+	margin: 0 auto;
+	width: 100%;
+}
+.header{
+	padding: 1% 0;
+	background: #5fc0cd;
+	overflow: hidden;
+	position: relative;
+}
+button{
+	width: 20%;
+	padding: 2%;
+	font-size: 3.4rem;
+	border: none;
+	border-radius: 5px;
+	float: left;
+	white-space:nowrap;
+	
+}
+.button-left{
+	color: #fff;
+	background: #55a8b3;
+	margin-left: 30%;
+}
+.button-right{
+	color: #5fc0cd;
+	background: #fff;
+}
+.header img{
+	position: absolute;
+	right: 4%;
+	top: 22%;
+	width: 6%;
+	height: auto;
+}
+.select{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 0.1rem solid #e1e5e7;
+}
+.select-each{
+	text-decoration: none;
+	float: left;
+	width: 33%;
+	padding: 4% 0;
+	text-align: center;
+	color: #999999;
+	font-size: 2.8rem;
+	position: relative;
+}
+.select img{
+	position: absolute;
+	right: 6%;
+	top: 50%;
+	width: 5%;
+}
+.middle{
+	border-left: 0.11rem solid #e1e5e7;
+	border-right: 0.11rem solid #e1e5e7;
+}
+.each-list{
+	display: block;
+	overflow: hidden;
+	padding: 4%;
+	position: relative;
+	border-bottom: 0.1rem solid #e1e5e7;
+}
+.p-left{
+	float: left;
+	width: 50%;
+}
+.p-right{
+	float: right;
+	width: 50%;
+	text-align: right;
+	color: #e63b0e;
+	font-size: 3rem;
+	padding-top: 6%;
+	
+}
+.icon1{
+	position: absolute;
+	right: 0;
+	top:38%;
+	width: 3%;
+}
+.time-title{
+	font-size: 2.4rem;
+	color: #999999;
+	display: block;
+
+}
+.time{
+	font-size: 2.8rem;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+.address{
+	font-size: 2.6rem;
+	color: #999999;
+	display: block;
+}
+.footer{
+	position: fixed;
+	width: 100%;
+	max-width: 720px;
+	bottom: 0;
+	overflow: hidden;
+	background: #f8fafb;
+	
+}
+.footer-left{
+	float: left;
+	width: 43%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	color: #5fc0cd;
+	margin-top: 3%;
+}
+.footer-center{
+	float: left;
+	width: 14%;
+	padding: 7% 0;
+	border-radius: 50%;
+	background: #5fc0cd url(../img/write.png) center/56% no-repeat;
+}
+.footer-right{
+	float: left;
+	width: 43%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	color: #b0b1b1;
+	margin-top: 3%;
+}
+.footer img{
+	width: 15%;
+}

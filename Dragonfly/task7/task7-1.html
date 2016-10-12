@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task7-1</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+<div class="header">
+	客服热线：010-594-78634<img src="img/icon-header.png" alt="">
+</div>
+<div class="top">
+	<div class="topnav">
+		<a href="#">关于</a>
+		<a href="task7-2.html">推荐</a>
+		<a href="task8.html">职业</a>
+		<a href="#">首页</a>
+	</div>
+</div>
+<div class="wrap">
+	  <div class="carousel">
+	    <div><img src="img/pic.png" /></div>
+	    <div><img src="img/pic.png" /></div>
+	    <div><img src="img/pic.png" /></div>
+	    <div><img src="img/pic.png" /></div>
+	  </div>
+	  <div class="button"><button class="pre"><img src="img/pre.png" alt=""></button><button class="next"><img src="img/next.png" alt=""></button>
+	  </div>
+	  <p class="text1">作为你一个初级菜鸟，你是否想要了解</p>
+	  <p class="text2"><span>50万</span>年薪的程序员,都会哪些技能呢？</p>
+	  <script>
+		  (function () {
+		    var carousel = document.querySelector(".carousel");
+		    var img = carousel.querySelectorAll("div");
+		    var len = img.length;
+		    [].forEach.call(img, function (item) {
+		      item.style.width = (100 / len) + "%";
+		    });
+		    carousel.style.left = "0%";
+		    carousel.style.width = (100 * len) + "%";
+		    var pre = document.querySelector(".pre");
+		    var next = document.querySelector(".next");
+		    var i = 0;
+		    next.onclick = function () {
+		      var left = carousel.style.left;
+		      if (i < len - 1) {
+		        carousel.style.left = (parseInt(left) - 100) + "%";
+		        i++;
+		      }
+		      else if (i == len - 1) {
+		        carousel.style.left = "0%";
+		        i = 0;
+		      }
+		    };
+		    pre.onclick = function () {
+		      var left = carousel.style.left;
+		      if (i > 0) {
+		        carousel.style.left = (parseInt(left) + 100) + "%";
+		        i--;
+		      } else if (i == 0) {
+		        carousel.style.left = -parseInt(carousel.style.width) + 100 + "%";
+		        i = len - 1;
+		      }
+		    };
+		  }());
+		</script>
+</div>
+<div class="main">
+<div class="introduce">
+	<span><img src="img/1.png" alt=""><br><h>高效</h><p>将五到七年的成长时间，缩短
+到一年到三年。</p></span>
+	<span><img src="img/2.png" alt=""><br><h>规范</h><p>标准的实战教程，不会走弯路</p></span>
+	<span><img src="img/3.png" alt=""><br><h>人脉</h><p>同班好友，同院学长，技术大师，
+入学就混入职脉圈，为以后铺平
+道路。</p></span>
+	<em class="number">
+		<p><img src="img/icon-user.png" alt=""><i>12400</i><br>累计在线学习人数</p>
+		<p><img src="img/icon-user.png" alt=""><i>12400</i><br>学员已经找到满意工作</p>
+	</em>
+</div>
+<div class="study">
+	<p>如何学习</p>
+	<ul>
+		<li><span>1</span><i>匹配你现在的个人情况寻找适合自己的岗位</i><img src="img/star.png" alt=""></li>
+		<li><span>2</span><i>了解职业前景薪金待遇、竞争压力等</i><img src="img/star.png" alt=""></li>
+		<li><span>3</span><i>掌握行业内顶级技能</i><img src="img/star.png" alt=""></li>
+		<li style="width:270px;"><span>4</span><i>查看职业目标任务</i></li>
+		<li><span>5</span><i>参考学习资源，掌握技能点，逐个完成任务</i><img src="img/star.png" alt=""></li>
+		<li><span>6</span><i>加入班级，和小伙伴们互帮互助，一块学习</i><img src="img/star.png" alt=""></li>
+		<li><span>7</span><i>选择导师，一路引导，加速自己成长</i><img src="img/star.png" alt=""></li>
+		<li style="width:270px;"><span>8</span><i>完成职业技能，升级业界大牛</i></li>
+	</ul>
+</div>
+<div class="student">
+	<p class="student-title">优秀学员展示</p>
+	<span><img src="img/student-1.png" alt=""><br><br><h>技术顾问：罗大佑</h><p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p></span>
+	<span><img src="img/student-2.png" alt=""><br><br><h>技术顾问：罗大佑</h><p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p></span>
+	<span><img src="img/student-3.png" alt=""><br><br><h>技术顾问：罗大佑</h><p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p></span>
+	<span><img src="img/student-4.png" alt=""><br><br><h>技术顾问：罗大佑</h><p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p></span>
+	<p class="small-icon">
+		<i></i>
+		<i></i>
+		<i></i>
+		<i></i>
+	</p>
+</div>
+<div class="company">
+	<p>战略合作企业</p>
+	<span><img  src="img/company-1.png" alt=""></span>
+	<span><img style="margin-top:20px;" src="img/company-2.png" alt=""></span>
+	<span><img style="margin-top:-12px;" src="img/company-3.png" alt=""></span>
+	<span><img style="margin-top:50px;" src="img/company-4.png" alt=""></span>
+	<span><img style="margin-top:60px;margin-left:42px;" src="img/company-5.png" alt=""></span>
+</div>
+</div>
+<div class="link">
+	<p>友情链接</p>
+	<ul>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">找工作</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">找工作</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">找工作</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">找工作</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">找工作</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">教师招聘</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">手机软件</a></li>
+		<li><a href="#">找工作</a></li>
+	</ul>
+</div>
+<div class="footer">
+	<div class="footer-center">
+		<span>
+			<h>技能树 — 改变你我</h>
+			<p class="p-1">
+				<a href="#">关于我们</a>
+				<a href="#">| 联系我们 |</a>
+				<a href="#">合作企业</a>
+			</p>
+		</span>
+		<span style="margin-left:134px;margin-right:394px;">
+			<h>旗下网站</h>
+			<p class="p-2">
+				<a href="#">草船云孵化器</a>
+				<a href="#">最强IT特训营</a>
+				<a href="#">葡萄藤轻游戏</a>
+				<a href="#">桌游精灵</a>
+			</p>
+		</span>
+		<span>
+			<h>微信公众平台</h><br>
+			<img src="img/wx.png" alt="">
+		</span>
+	</div>
+	<p class="p-3">Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP备13005880号</p>
+</div>	
+</body>
+</html>

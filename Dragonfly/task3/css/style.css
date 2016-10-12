@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin:0;
+}
+#main{
+	position: relative;
+	width: 640px;
+	height: 1007px;
+	margin:0 auto;
+	background: url(../img/return.png) 35px 18px no-repeat ,
+	            url(../img/title.png) 198px 114px no-repeat,
+	            url(../img/left.png) 137px 674px no-repeat,
+	    #68cdd5 url(../img/right.png) 433px 674px no-repeat;
+}
+.content{
+	position: absolute;
+	left: 89px;
+	top:305px;
+	font-family: "[HiraginoSans...";
+	font-size: 30px;
+	line-height: 54px;
+	color: #ebf8f9;
+	width: 453px;
+	height: 276px;
+
+}
+.left-text{
+	width: 123px;
+	height: 26px;
+	position: absolute;
+	left: 121px;
+	top: 779px;
+	font-family: "黑体";
+	font-size: 24px;
+	color: #fff;
+}
+.right-text{
+	width: 123px;
+	height: 26px;
+	position: absolute;
+	left: 424px;
+	top: 779px;
+	font-family: "黑体";
+	font-size: 24px;
+	color: #fff;
+}

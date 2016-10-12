@@ -1,0 +1,103 @@
+ul{
+	list-style: none;
+}
+.header-img{
+	background: #f1a750;
+}
+.main-body{
+	background: #fafafa;
+}
+.bread-left{
+	font-size: 1.6rem;
+	color: #333;
+}
+.bread-right{
+	font-size:1.6rem;
+	color: #29b078;
+}
+.bread{
+	height: 8rem;
+	line-height: 8rem;
+}
+.main-left{
+	background: #fff;
+}
+.main-left h{
+	display: block;
+	font-size: 1.6rem;
+	color: #333;
+	font-weight: bold;
+	height: 6,4rem;
+	line-height: 6.4rem;
+	text-align: center;
+	border-bottom: 0.1rem solid #e6e6e6;
+}
+.main-left li{
+	text-align: center;
+	padding-bottom: 3.8rem;
+}
+.main-left li:hover span{
+	background: #f9a372;
+}
+.main-left li:hover a{
+	color: #ff650e;
+}
+.main-left span{
+	display: inline-block;
+	height: 0.8rem;
+	width: 0.8rem;
+	border-radius: 0.4rem;
+	border: 0.1rem solid #f9a372;
+	vertical-align: middle;
+}
+.main-left a{
+	font-size: 1.4rem;
+	color: #29b078;
+	vertical-align: middle;
+}
+.tudou-icon span{
+	background: #f9a372;
+}
+.tudou-icon a{
+	color: #ff650e;
+}
+.main-right{
+	padding-left: 2.6rem;
+}
+.tudou{
+	background: #fff;
+	padding-bottom: 18rem;
+	margin-bottom: 23rem;
+}
+.tudou h{
+	display: block;
+	padding: 1.4rem 0;
+	border-bottom: 0.1rem solid #e6e6e6;
+	overflow: hidden;
+}
+.tudou h span{
+	display: inline-block;
+	width: 42rem;
+	color: #999;
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	vertical-align: middle;
+	float: left;
+}
+.tudou h img{
+	display: inline-block;
+	margin: 0 2.2rem 0 6.3rem;
+	float: left;
+}
+.tudou p{
+	padding: 3rem 7.4rem 0 6.9rem;
+	color: #999;
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	text-indent: 2em;
+}
+@media screen and (max-width: 992px){
+	.tudou h img{
+		margin-left: 40%;
+	}
+}
